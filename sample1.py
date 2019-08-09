@@ -3,7 +3,7 @@ from selenium import webdriver
 profile = webdriver.FirefoxProfile()
 profile.set_preference("browser.helperApps.neverAsk.saveToDisk", "application/octet-stream")
 profile.set_preference("browser.download.manager.showWhenStarting", False)
-profile.set_preference("browser.download.dir","C:/Users/UX015235/Downloads")
+profile.set_preference("browser.download.dir","path with /")
 profile.set_preference("browser.download.folderList", 2)
 profile.set_preference("pdfjs.disabled", True)
 
